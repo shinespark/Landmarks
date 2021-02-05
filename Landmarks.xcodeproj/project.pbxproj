@@ -113,9 +113,9 @@
 				F490B1CE25CC92770046CC23 /* Info.plist */,
 				F490B1C525CC92740046CC23 /* LandmarksApp.swift */,
 				F490B28825CD0D630046CC23 /* Model */,
+				F490B28725CD0D560046CC23 /* Views */,
 				F490B1CB25CC92770046CC23 /* Preview Content */,
 				F490B24A25CD02E30046CC23 /* Resources */,
-				F490B28725CD0D560046CC23 /* Views */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
