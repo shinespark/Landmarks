@@ -19,6 +19,7 @@
 		F490B27925CD03730046CC23 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F490B27825CD03730046CC23 /* Landmark.swift */; };
 		F490B28325CD0C050046CC23 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F490B28225CD0C050046CC23 /* ModelData.swift */; };
 		F490B29925CD11B10046CC23 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F490B29825CD11B10046CC23 /* LandmarkRow.swift */; };
+		F490B2A425CD170E0046CC23 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F490B2A325CD170E0046CC23 /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		F490B27825CD03730046CC23 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		F490B28225CD0C050046CC23 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		F490B29825CD11B10046CC23 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRow.swift; path = Landmarks/Views/LandmarkRow.swift; sourceTree = SOURCE_ROOT; };
+		F490B2A325CD170E0046CC23 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +109,9 @@
 		F490B1C425CC92740046CC23 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				F490B1C925CC92770046CC23 /* Assets.xcassets */,
 				F490B1CE25CC92770046CC23 /* Info.plist */,
 				F490B1C525CC92740046CC23 /* LandmarksApp.swift */,
-				F490B1C925CC92770046CC23 /* Assets.xcassets */,
 				F490B28825CD0D630046CC23 /* Model */,
 				F490B1CB25CC92770046CC23 /* Preview Content */,
 				F490B24A25CD02E30046CC23 /* Resources */,
@@ -155,6 +157,7 @@
 		F490B28725CD0D560046CC23 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F490B2A325CD170E0046CC23 /* LandmarkList.swift */,
 				F490B1C725CC92740046CC23 /* ContentView.swift */,
 				F490B1F325CC99620046CC23 /* CircleImage.swift */,
 				F490B1F825CC9ADA0046CC23 /* MapView.swift */,
@@ -305,6 +308,7 @@
 				F490B1C825CC92740046CC23 /* ContentView.swift in Sources */,
 				F490B1F925CC9ADA0046CC23 /* MapView.swift in Sources */,
 				F490B1C625CC92740046CC23 /* LandmarksApp.swift in Sources */,
+				F490B2A425CD170E0046CC23 /* LandmarkList.swift in Sources */,
 				F490B1F425CC99620046CC23 /* CircleImage.swift in Sources */,
 				F490B27925CD03730046CC23 /* Landmark.swift in Sources */,
 				F490B29925CD11B10046CC23 /* LandmarkRow.swift in Sources */,
