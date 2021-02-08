@@ -116,8 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				F44C5B8925D19211009C3BFB /* GraphCapsule.swift */,
-				F44C5B8825D19211009C3BFB /* HikeGraph.swift */,
 				F44C5B8B25D19211009C3BFB /* HikeDetail.swift */,
+				F44C5B8825D19211009C3BFB /* HikeGraph.swift */,
 				F44C5B8A25D19211009C3BFB /* HikeView.swift */,
 			);
 			path = Hikes;
