@@ -163,6 +163,7 @@
 				F490B1C725CC92740046CC23 /* ContentView.swift */,
 				F417A76C25CD3A0E003BD550 /* LandmarkDetail.swift */,
 				F490B2A325CD170E0046CC23 /* LandmarkList.swift */,
+				F490B29825CD11B10046CC23 /* LandmarkRow.swift */,
 				F490B1F825CC9ADA0046CC23 /* MapView.swift */,
 			);
 			path = Views;
@@ -172,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				F490B27825CD03730046CC23 /* Landmark.swift */,
-				F490B29825CD11B10046CC23 /* LandmarkRow.swift */,
 				F490B28225CD0C050046CC23 /* ModelData.swift */,
 			);
 			path = Model;
