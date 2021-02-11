@@ -12,7 +12,8 @@ struct BadgeSymbol: View {
 
     var body: some View {
         GeometryReader { geometry in
-            Path { path in                 let width = min(geometry.size.width, geometry.size.height)
+            Path { path in
+                let width = min(geometry.size.width, geometry.size.height)
                 let height = width * 0.75
                 let spacing = width * 0.030
                 let middle = width * 0.5
