@@ -106,7 +106,7 @@
 		F490B28225CD0C050046CC23 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		F490B2A325CD170E0046CC23 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		F4D3084425D5D3EB00D3FDC3 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
-		F4D3084D25D5D58100D3FDC3 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeatureCard.swift; path = Landmarks/Views/FeatureCard.swift; sourceTree = SOURCE_ROOT; };
+		F4D3084D25D5D58100D3FDC3 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeatureCard.swift; path = Landmarks/Views/Profiles/FeatureCard.swift; sourceTree = SOURCE_ROOT; };
 		F4D3085525D5DEAC00D3FDC3 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		F4D3085A25D5E3D300D3FDC3 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +139,8 @@
 		F42A846025D245AB0037B25C /* Profiles */ = {
 			isa = PBXGroup;
 			children = (
+				F4D3084D25D5D58100D3FDC3 /* FeatureCard.swift */,
+				F4D3085525D5DEAC00D3FDC3 /* PageView.swift */,
 				F42A847325D25B030037B25C /* ProfileEditor.swift */,
 				F42A846125D245C60037B25C /* ProfileHost.swift */,
 				F42A846925D247F30037B25C /* ProfileSummary.swift */,
@@ -273,8 +275,6 @@
 			isa = PBXGroup;
 			children = (
 				F490B1C725CC92740046CC23 /* ContentView.swift */,
-				F4D3084D25D5D58100D3FDC3 /* FeatureCard.swift */,
-				F4D3085525D5DEAC00D3FDC3 /* PageView.swift */,
 				F49090BA25D12B6100171F01 /* Badges */,
 				F44C5BA225D19EEF009C3BFB /* Categories */,
 				F490906E25D10CF600171F01 /* Helpers */,
